@@ -1,38 +1,70 @@
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
+}
+.App-header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border-bottom: 1px solid rgb(160, 159, 159);
+}
+
+.AboutMe {
+  background-color: white;
+  text-align: center;
+  border-bottom: 1px solid rgb(160, 159, 159);
+  width: 800px;
+  margin: auto;
+}
+
+.Skills {
+  background-color: white;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+.ResumeHeader {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(206, 206, 206, 0.157);
+  border-bottom: 1px solid rgb(160, 159, 159);
 }
 
-.App-link {
-  color: #61dafb;
+.App-header button {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  position: relative;
+  left: 1375px;
+  margin-left: 20px;
+
+  
+  
+}
+.ProfileRepos{
+  color: rgb(97, 97, 97);
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  border-radius: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.App-header h1 {
+  margin: 0;
 }
